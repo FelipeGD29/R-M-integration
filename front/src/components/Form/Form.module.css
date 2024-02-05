@@ -1,0 +1,28 @@
+.contenedor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/Login.webp);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-size: cover;
+}
+.form{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #008000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #008000, 0 0 20px #008000, 0 0 30px #008000;
+    background-color: rgba(18, 18, 18, 0.7)
+}
+.error{
+    color: red;
+    border: 2px white
+}

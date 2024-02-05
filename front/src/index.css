@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background-color: gray;
+  margin: 0px;
+  font-family: Inconsolata;
+}
+button {
+  color: white;
+  border-radius: 10%;
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border: 2px solid #008000;
+  box-shadow: 0 0 10px #008000, 0 0 20px #008000, 0 0 30px #008000;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.bgImg {
+  position: fixed;
+  z-index: -2;
+  width: 100vw;
+}
+
+a {
+color: white
+}

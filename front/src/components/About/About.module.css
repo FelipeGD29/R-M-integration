@@ -1,0 +1,57 @@
+.container {
+  color: white;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foto {
+  margin-bottom: 50px;
+  clip-path: circle(40% at 50% 60%);
+  width: 15rem;
+}
+.relative {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.rombus {
+  background-image: url("https://cdn.pixabay.com/animation/2023/03/19/02/34/02-34-11-741_512.gif");
+  background-size: cover;
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  background-color: black;
+  border: 2px solid #008000;
+  transform: rotate(45deg);
+  overflow: hidden;
+  margin: 70px;
+}
+.about {
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://cdn.pixabay.com/animation/2023/03/19/02/34/02-34-11-741_512.gif");
+  width: min-content;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.hello {
+  font-weight: 700;
+}
+.contactMe {
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}

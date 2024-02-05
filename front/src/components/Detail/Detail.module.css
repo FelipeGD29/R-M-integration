@@ -1,0 +1,25 @@
+.container {
+  color: white;
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.characterImg {
+  border-radius: 50%;
+}
+.detailCharacter {
+  padding: 50px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #008000;
+  border-radius: 50px;
+  box-shadow: 0 0 10px #008000, 0 0 20px #008000, 0 0 30px #008000;
+  background-image: url(https://cdn.pixabay.com/animation/2023/03/19/02/34/02-34-11-741_512.gif);
+  background-color: rgba(0, 0, 0, 0.8);
+}

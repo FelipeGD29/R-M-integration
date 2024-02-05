@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  transform: rotate(-45deg);
+}
+
+.rombus {
+  background-image: url("https://cdn.pixabay.com/animation/2023/03/19/02/34/02-34-11-741_512.gif");
+  width: 13vw;
+  border: 2px solid #008000;
+  transform: rotate(45deg);
+  overflow: hidden;
+  margin: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.rombus:hover {
+  transform: scale(1.1) rotate(45deg);
+  border: 2px solid #008000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #008000, 0 0 20px #008000, 0 0 30px #008000;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.rombus .data {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 128, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.rombus:hover .data {
+  opacity: 1;
+}
