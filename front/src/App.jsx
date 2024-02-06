@@ -19,7 +19,7 @@ function App() {
   const onSearch = async (id) => {
     try {
       const { data } = await axios(
-        `http://localhost:3001/rickandmorty/character/${id}?key=pi-felipegd29`
+        `https://r-m-integration.vercel.app/rickandmorty/character/${id}`
       );
       if (data.name) {
         if (
